@@ -1,6 +1,6 @@
 # Remote Egui
 
-This repo is an example of an egui app that can be run natively,as well as compiled to a wasm frontend that communicates with a host application over websockets.
+This repo is an example of an egui app that can be run natively or be compiled to a wasm frontend with a websocket client included that communicates with a websocket server running on the host.
 
 ![remote](https://github.com/matthewjberger/remote-egui/assets/7131091/68f7c67f-9dd0-4b3d-bfdc-a0358f9586e8)
 
