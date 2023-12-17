@@ -1,0 +1,22 @@
+[package]
+name = "rpc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bincode = "1.3.3"
+enum2str = "0.1.9"
+ewebsock = { version = "0.3.0", features = ["tls"] }
+log = "0.4.20"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1.0.94", default-features = false, features = [
+    "alloc",
+] }
+uuid = { version = "1.4.1", features = ["v4"] }
+
+enum2egui = { version = "0.1.5", optional = true }
+
+[features]
+default = ["gui", "contract"]
+gui = ["enum2egui"]
+contract = []

@@ -1,0 +1,12 @@
+[package]
+name = "code_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.23.0"
+enum2str = "0.1.9"
+serde = { version = "1", features = ["derive"] }
+syntect = { version = "4.2", default-features = false, features = [
+    "default-fancy",
+] }

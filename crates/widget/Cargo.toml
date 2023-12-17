@@ -1,0 +1,23 @@
+[package]
+name = "widget"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+broker = { path = "../broker" }
+egui = "0.23.0"
+enum2contract = "0.1.6"
+enum2str = "0.1.9"
+log = "0.4"
+postcard = { version = "1.0.4", features = ["alloc"] }
+rpc = { path = "../rpc", default-features = false, features = ["contract"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1.0.94", default-features = false, features = [
+    "alloc",
+] }
+
+enum2egui = { version = "0.1.5", optional = true }
+
+[features]
+default = ["gui"]
+gui = ["enum2egui", "rpc/gui"]
