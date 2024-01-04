@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-uuid = { version = "1.4.1", features = ["v4", "js"] }
+uuid = { version = "1.6.1", features = ["v4", "js"] }
 widget = { path = "../../widget" }

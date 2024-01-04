@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-egui = "0.23.0"
+egui = "0.24.1"
 enum2str = "0.1.9"
 serde = { version = "1", features = ["derive"] }
-syntect = { version = "4.2", default-features = false, features = [
+syntect = { version = "5.1.0", default-features = false, features = [
     "default-fancy",
 ] }

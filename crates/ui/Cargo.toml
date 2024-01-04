@@ -5,21 +5,21 @@ edition = "2021"
 
 [dependencies]
 broker = { path = "../broker" }
-enum2egui = "0.1.7"
-enum2str = "0.1.9"
+enum2egui = "0.1.8"
+enum2str = "0.1.10"
 enum2contract = "0.1.6"
-egui = "0.23.0"
+egui = "0.24.1"
 log = "0.4"
-postcard = { version = "1.0.4", features = ["alloc"] }
+postcard = { version = "1.0.8", features = ["alloc"] }
 rpc = { path = "../rpc" }
 serde = { version = "1", features = ["derive"] }
-serde_json = { version = "1.0.94", default-features = false, features = [
+serde_json = { version = "1.0.110", default-features = false, features = [
     "alloc",
 ] }
-syntect = { version = "4.2", default-features = false, features = [
+syntect = { version = "4.6", default-features = false, features = [
     "default-fancy",
 ] }
-uuid = { version = "1.4.1", features = ["v4", "js"] }
+uuid = { version = "1.6.1", features = ["v4", "js"] }
 widget = { path = "../widget" }
 
 connection = { path = "../widgets/connection" }
