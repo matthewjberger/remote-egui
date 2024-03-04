@@ -1,4 +1,4 @@
-# Watchtower
+# Remote Egui App
 
 This repo is an example of an egui app that can be run natively or be compiled to a wasm frontend with a websocket client included that communicates with a websocket server running on the host.
 
