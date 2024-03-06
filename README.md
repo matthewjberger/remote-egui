@@ -20,7 +20,7 @@ Fedora:
 
 ## Quickstart
 
-- Install [just](https://github.com/casey/just).
+- Install [just](https://github.com/casey/just) and [trunk](https://trunkrs.dev/)
 
 Show command list:
 
